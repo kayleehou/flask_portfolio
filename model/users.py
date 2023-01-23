@@ -155,7 +155,7 @@ class userInfo(db.Model):
             db.session.remove()
             return None
 
-    # CRUD read converts self to dictionary
+    # CRUD read converts user to dictionary
     # returns dictionary
     def read(user):
         return {
